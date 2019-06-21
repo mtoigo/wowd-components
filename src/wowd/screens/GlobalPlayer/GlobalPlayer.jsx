@@ -20,7 +20,6 @@ export default class GlobalPlayer extends React.Component<Props> {
         <div className={stylesheet.playButtonContainer}>
           <PlayButton track={this.props.track} theme="light" size="large" />
         </div>
-        <TrackInfo track={this.props.track} />
       </div>
     );
   }
